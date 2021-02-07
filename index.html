@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyBgu0QcwlIq7RFWepzkJGodLlGo2xDJ47w",
+    authDomain: "todo-app-4e6cc.firebaseapp.com",
+    projectId: "todo-app-4e6cc",
+    storageBucket: "todo-app-4e6cc.appspot.com",
+    messagingSenderId: "561369639199",
+    appId: "1:561369639199:web:02730475de9f481447282a"
+  };
+firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+</head>
+<body>
+    <div id="headerDiv">
+        <div id="imgDiv">
+            <img id="imgid" src="../image/pic1.jpg" />
+        </div>
+        <div id="headDiv">
+            <p id="headid">TODO APP</p>
+        </div>
+    </div>
+    <div id="bodyDiv">
+        <div id="workingDiv">
+            <div id="tbleDiv">
+
+            </div>
+            <div id="inputDiv">
+                
+            </div>
+        </div>
+        <div id="buttonDiv">
+            <button id="addbtn" onclick="add()">ADD</button>
+            <button id="delbtn" onclick="del()">DELETE ALL</button>
+        </div>
+    </div>
+</body>
+<link rel="stylesheet" href="./styles.css" />
+<script src="./app.js" ></script>
+</html>

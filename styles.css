@@ -1,0 +1,144 @@
+
+#headerDiv {
+    position: absolute;
+    width: 98.7%;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
+#imgid {
+    width: 40px;
+    height: 50px;
+    margin-left: 10px;
+}
+#imgDiv {
+    position: relative;
+    animation-name: imgani;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes imgani {
+    from {
+        margin-left: 10px;
+    }
+    to {
+        margin-left: 1040px;
+    }
+}
+#headDiv {
+    position: relative;
+    margin-left: 70px;
+    margin-top: -75px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(214, 61, 245);
+    animation-name: headani;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes headani {
+    from {
+        margin-left: 70px;
+    }
+    to {
+        margin-left: 1100px;
+    }
+}
+#bodyDiv {
+    position: absolute;
+    margin-top: 60px;
+    width: 98.7%;
+    height: 88%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#workingDiv{
+    width: 98%;
+    height: 80%;
+    background-color: wheat;
+    margin-top: 10px;
+    margin-left: 13px;
+    border-radius: 10px;
+}
+#buttonDiv{
+    width: 98%;
+    height: 15%;
+    background-color: wheat;
+    margin-top: 10px;
+    margin-left: 13px;
+    border-radius: 10px;
+    text-align: center;
+}
+#addbtn {
+    margin-top: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(209, 143, 223);
+}
+#delbtn {
+    margin-top: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(209, 143, 223);
+}
+#tbleDiv {
+    width: 95%;
+    height: 75%;
+    margin-left: 30px;
+}
+#inputDiv {
+    width: 95%;
+    height: 20%;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+#itext {
+    margin-left: 480px;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: wheat;
+    font-size: 20px;
+}
+#ibtn {
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: wheat;
+    font-size: 20px;
+}
+#divid {
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid rgb(214, 61, 245);
+    margin-top: 10px;
+}
+#indel {
+    width: 70px;
+    margin-left: 20px;
+    background-color: black;
+    color: wheat;}
+#intex {
+    width: 70px;
+    margin-left: 5px;
+    background-color: black;
+    color: wheat;
+}
